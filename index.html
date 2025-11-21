@@ -8,16 +8,18 @@
     <script src="script.js" defer></script>
 </head>
 
-<body>
-
+<!--Poniendo CSS con la etiqueta style-->
+<body style="background-color: blanchedalmond; font-family: 'Lucida Sans';">
     <header>
+
         <nav>
             <div>
                 <span>Muffin</span>
-                <span>Cafetería & Pastelería</span>
+                <span>Cafetería & Pastelería </span>
             </div>
 
             <ul>
+                <!--Enlace interno-->
                 <li><a href="#nosotros">Nosotros</a></li>
                 <li><a href="#promociones">Promociones</a></li>
                 <li><a href="#menu">Menú</a></li>
@@ -27,13 +29,13 @@
 
         <section>
             <div>
-                <h1>Cafetería Muffin</h1>
-                <p>Pan recién horneado, café calientito y pasteles hechos con cariño.</p>
+                <h1 style="color:brown; text-align: center;">Cafetería Muffin 🎂</h1>
+                <p style="font-size: 22px;">Pan recién horneado, café calientito y pasteles hechos con cariño.</p>
                 <a href="#menu">Ver menú</a>
             </div>
 
             <div>
-                <img src="https://images.pexels.com/photos/227432/pexels-photo-227432.jpeg" alt="Café y pan dulce">
+                <img src="https://images.pexels.com/photos/227432/pexels-photo-227432.jpeg" alt="Café y pan dulce" width="300">
             </div>
         </section>
     </header>
@@ -41,7 +43,7 @@
     <main>
 
         <!-- NOSOTROS -->
-        <section>
+        <section id="nosotros">
             <div>
                 <h2>Sobre nosotros</h2>
                 <p>
@@ -53,7 +55,7 @@
         </section>
 
         <!-- PROMOCIONES -->
-        <section>
+        <section id="promociones">
             <div>
                 <h2>Promociones</h2>
                 <ul>
@@ -65,41 +67,41 @@
         </section>
 
         <!-- MENÚ -->
-        <section>
+        <section id="menu">
             <div>
                 <h2>Menú</h2>
 
                 <div>
                     <!-- Tarjeta 1 -->
                     <article>
-                        <img src="https://i.blogs.es/396729/como-hacer-carlota-pay-de-limon-1-/450_1000.jpg" alt="Pay de limón">
+                        <img src="https://i.blogs.es/396729/como-hacer-carlota-pay-de-limon-1-/450_1000.jpg" alt="Pay de limón" width="300">
                         <div>
                             <h3>Pay de limón</h3>
                             <p>Base crujiente, relleno cremoso de limón y crema batida.</p>
                             <p>$280</p>
-                            <button>Agregar</button>
+                            <button style="border-radius: 8px; background-color: chocolate; color: white;">Agregar</button>
                         </div>
                     </article>
 
                     <!-- Tarjeta 2 -->
                     <article>
-                        <img src="https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg" alt="Muffin de zanahoria">
+                        <img src="https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg" alt="Muffin de zanahoria" width="300">
                         <div>
                             <h3>Muffin de zanahoria</h3>
                             <p>Muffin húmedo con nuez y glaseado de queso crema.</p>
                             <p>$45</p>
-                            <button>Agregar</button>
+                            <button style="border-radius: 8px; background-color: chocolate; color: white;">Agregar</button>
                         </div>
                     </article>
 
                     <!-- Tarjeta 3 -->
                     <article>
-                        <img src="https://images.pexels.com/photos/2915289/pexels-photo-2915289.jpeg" alt="Pastel de chocolate">
+                        <img src="https://images.pexels.com/photos/2915289/pexels-photo-2915289.jpeg" alt="Pastel de chocolate" width="300">
                         <div>
                             <h3>Pastel de chocolate</h3>
                             <p>Bizcocho intenso con ganache suave y chispas.</p>
                             <p>$350</p>
-                            <button>Agregar</button>
+                            <button style="border-radius: 8px; background-color: chocolate; color: white;">Agregar</button>
                         </div>
                     </article>
                 </div>
@@ -112,6 +114,7 @@
         <section>
             <div>
                 <h2>Receta de la abuela</h2>
+                <img src="https://cdn.recetasderechupete.com/wp-content/uploads/2019/09/Muffins-de-zanahoria.jpg" alt="" width="300">
                 <h3>Muffin de zanahoria</h3>
                 <p>
                     Una receta tradicional con zanahoria rallada,
@@ -132,7 +135,7 @@
 
         <!-- CONTACTO -->
         <div>
-            <section>
+            <section id="contacto">
                 <h2>Contacto</h2>
                 <p>Visítanos o haz tu pedido especial.</p>
 
@@ -195,7 +198,7 @@
                         <input type="file" accept="image/*">
                     </div>
 
-                    <button type="submit">Enviar pedido</button>
+                    <button type="submit" style="border-radius: 8px; background-color: chocolate; color: white;">Enviar pedido</button>
                 </form>
             </section>
 
@@ -203,8 +206,8 @@
             <section>
                 <h2>Síguenos</h2>
                 <ul>
-                    <li><a href="#" target="_blank">Facebook</a></li>
-                    <li><a href="#" target="_blank">Instagram</a></li>
+                    <li><a href="https://www.facebook.com/elglobooficial/?locale=es_LA" target="_blank">Facebook</a></li>
+                    <li><a href="https://www.instagram.com/pasteleriaideal/?hl=es" target="_blank">Instagram</a></li>
                     <li><a href="https://www.tiktok.com/@camille.littlecookie/video/7405358458628852998" target="_blank">TikTok</a></li>
                     <li><a href="https://www.youtube.com/watch?v=kmORdzA8nvA" target="_blank">YouTube</a></li>
                 </ul>
