@@ -1,123 +1,218 @@
 <!DOCTYPE html>
-<html lang="en">
-<!--Metadatos importantes para renderizar nuestra pagina-->
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pasteleria: Muffin</title>
+    <title>Cafetería Muffin</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
 </head>
+
 <body>
-    <header> <!--Esta es una etiqueta semantica de cabecera-->
-        <nav> <!--Barra de navegacion-->
-            <ul> <!--Lista desordenada-->
-                <li> <a href="">Nosotros</a> </li>
-                <li> <a href="">Promociones</a> </li>
-                <li> <a href="">Menu</a> </li>
-                <li> <a href="">Contacto</a> </li>
-            </ul>
-        </nav> 
-    </header>
 
-    <!--Informacion principal de mi pagina-->
-    <main>
-        <!--Seccion sobre nosotros-->
-        <article>
-            <h1>Cafeteria Muffin</h1>
-            <p>Nuestra pasión por la repostería nos ha inspirado a hornear el mejor pan, crear pasteles únicos, servir el mejor café pero sobre todo a reinventarnos e innovar todos los días.</p>
-        </article>
-
-        <!--Seccion de promociones-->
-        <section>
-            <h2>Promociones</h2>
-            <ul>
-                <li><strong>2x1</strong> en Muffins los Lunes y Miercoles</li>
-                <li><strong>Combo super muffin:</strong> Cafe + Pan por 55</li>
-                <li>10% de descuento en pasteles de temporada</li>
-            </ul>
-        </section>
-
-        <!--Seccion de Menu-->
-        <section>
-            <h2>Menu</h2>
-            <!--Tarjeta de postre-->
+    <header>
+        <nav>
             <div>
-                <img src="https://i.blogs.es/396729/como-hacer-carlota-pay-de-limon-1-/450_1000.jpg" alt="Imagen de un pay de limon">
-                <h3>Pay de limon</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quos laudantium odio </p>
-                <p> <strong> $280 </strong> </p>
-                <button>Agregar</button>
+                <span>Muffin</span>
+                <span>Cafetería & Pastelería</span>
             </div>
 
+            <ul>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#promociones">Promociones</a></li>
+                <li><a href="#menu">Menú</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+
+        <section>
+            <div>
+                <h1>Cafetería Muffin</h1>
+                <p>Pan recién horneado, café calientito y pasteles hechos con cariño.</p>
+                <a href="#menu">Ver menú</a>
+            </div>
+
+            <div>
+                <img src="https://images.pexels.com/photos/227432/pexels-photo-227432.jpeg" alt="Café y pan dulce">
+            </div>
+        </section>
+    </header>
+
+    <main>
+
+        <!-- NOSOTROS -->
+        <section>
+            <div>
+                <h2>Sobre nosotros</h2>
+                <p>
+                    Nuestra pasión por la repostería nos inspira a hornear el mejor pan,
+                    crear pasteles únicos, servir el café más delicioso
+                    y reinventarnos todos los días.
+                </p>
+            </div>
         </section>
 
-        <!--Seccion de receta-->
+        <!-- PROMOCIONES -->
         <section>
-            <h2>Receta de la abuela</h2>
-            <h3>Muffin de Zanahoria</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt suscipit sapiente in consequatur veniam architecto, adipisci dignissimos ullam a iusto excepturi facilis voluptatem est, distinctio facere laboriosam aliquid corporis id!</p>
-            <ol>
-                <li>Comprar ...</li>
-                <li>Orenar ...</li>
-                <li>Meter al orno ...</li>
-            </ol>
+            <div>
+                <h2>Promociones</h2>
+                <ul>
+                    <li><strong>2x1</strong> en muffins los lunes y miércoles</li>
+                    <li><strong>Combo Súper Muffin:</strong> café + pan por $55</li>
+                    <li><strong>10% de descuento</strong> en pasteles de temporada</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- MENÚ -->
+        <section>
+            <div>
+                <h2>Menú</h2>
+
+                <div>
+                    <!-- Tarjeta 1 -->
+                    <article>
+                        <img src="https://i.blogs.es/396729/como-hacer-carlota-pay-de-limon-1-/450_1000.jpg" alt="Pay de limón">
+                        <div>
+                            <h3>Pay de limón</h3>
+                            <p>Base crujiente, relleno cremoso de limón y crema batida.</p>
+                            <p>$280</p>
+                            <button>Agregar</button>
+                        </div>
+                    </article>
+
+                    <!-- Tarjeta 2 -->
+                    <article>
+                        <img src="https://images.pexels.com/photos/291528/pexels-photo-291528.jpeg" alt="Muffin de zanahoria">
+                        <div>
+                            <h3>Muffin de zanahoria</h3>
+                            <p>Muffin húmedo con nuez y glaseado de queso crema.</p>
+                            <p>$45</p>
+                            <button>Agregar</button>
+                        </div>
+                    </article>
+
+                    <!-- Tarjeta 3 -->
+                    <article>
+                        <img src="https://images.pexels.com/photos/2915289/pexels-photo-2915289.jpeg" alt="Pastel de chocolate">
+                        <div>
+                            <h3>Pastel de chocolate</h3>
+                            <p>Bizcocho intenso con ganache suave y chispas.</p>
+                            <p>$350</p>
+                            <button>Agregar</button>
+                        </div>
+                    </article>
+                </div>
+
+                <p>Productos en tu carrito: <span>0</span></p>
+            </div>
+        </section>
+
+        <!-- RECETA -->
+        <section>
+            <div>
+                <h2>Receta de la abuela</h2>
+                <h3>Muffin de zanahoria</h3>
+                <p>
+                    Una receta tradicional con zanahoria rallada,
+                    especias suaves y el toque secreto de la abuela.
+                </p>
+
+                <ol>
+                    <li>Preparar los ingredientes: harina, zanahoria, azúcar, huevos, aceite y especias.</li>
+                    <li>Mezclar todo y llenar los moldes.</li>
+                    <li>Hornear a 180°C durante 20–25 minutos.</li>
+                </ol>
+            </div>
         </section>
 
     </main>
 
-    <!--Pie de pagina-->
     <footer>
-        <!--Seccion de contacto-->
-        <section>
-            <h2>Contacto</h2>
-            <p>Visitanos en nuestra sucursal...</p>
 
-            <h3>Pedidos</h3>
-            <!--Formulario-->
-            <form action="">
-                <label for="">Nombre completo:</label>
-                <input type="text" placeholder="Aqui va tu nombre" >
+        <!-- CONTACTO -->
+        <div>
+            <section>
+                <h2>Contacto</h2>
+                <p>Visítanos o haz tu pedido especial.</p>
 
-                <label for="">Celular:</label>
-                <input type="tel" placeholder="Deja tu whats">
+                <h3>Pedidos especiales</h3>
+                <form>
 
-                <label for="">Correo:</label>
-                <input type="email" placeholder="Deja tu correo">
+                    <div>
+                        <label>Nombre completo:</label>
+                        <input type="text" placeholder="Tu nombre">
+                    </div>
 
-                <label for="">Sabor del paste:</label>
-                <div>
-                    <label for=""><input type="radio">Chocolate</label>
-                    <label for=""><input type="radio">Vainilla</label>
-                    <label for=""><input type="radio">Red Velvet</label>
-                    <label for=""><input type="radio">3 leches</label>
-                </div>
+                    <div>
+                        <label>Celular:</label>
+                        <input type="tel" placeholder="Tu WhatsApp">
+                    </div>
 
-                <label for="">Extras:</label>
-                <div>
-                    <label for=""><input type="checkbox">Nuez</label>
-                    <label for=""><input type="checkbox">Fresas</label>
-                    <label for=""><input type="checkbox">Vela de cumple</label>
-                    <label for=""><input type="checkbox">Decoracion personalizada</label>
-                </div>
+                    <div>
+                        <label>Correo electrónico:</label>
+                        <input type="email" placeholder="Tu correo">
+                    </div>
 
-                <label for="">Fecha del evento</label>
-                <input type="date" name="" id="">
+                    <!-- SABORES -->
+                    <fieldset>
+                        <legend>Sabor del pastel:</legend>
 
-                <label for="">Imagen de referencia</label>
-                <input type="file" name="" id="">
+                        <label>
+                            <input type="radio" name="sabor" value="Chocolate"> Chocolate
+                        </label>
 
-                <button type="submit">Enviar pedido</button>
-            </form>
-        </section>
+                        <label>
+                            <input type="radio" name="sabor" value="Vainilla"> Vainilla
+                        </label>
 
-        <ul>
-            <li><a href="">Facebook</a></li>
-            <li><a href="">Instagram</a></li>
-            <li><a href="https://www.tiktok.com/@camille.littlecookie/video/7405358458628852998" target="_blank">TikTok</a></li>
-            <li><a href="https://www.youtube.com/watch?v=kmORdzA8nvA" target="_blank">YouTube</a></li>
-        </ul>
-        <!-- El atributo target="_blank" abre los enlaces en una nueva pagina-->
+                        <label>
+                            <input type="radio" name="sabor" value="Red Velvet"> Red Velvet
+                        </label>
 
-        <p> 2025 Cafeteria Muffin - Todos los derechos reservados</p>
+                        <label>
+                            <input type="radio" name="sabor" value="Tres leches"> Tres leches
+                        </label>
+                    </fieldset>
+
+                    <!-- EXTRAS -->
+                    <fieldset>
+                        <legend>Extras:</legend>
+
+                        <label><input type="checkbox" value="Nuez"> Nuez</label>
+                        <label><input type="checkbox" value="Fresas"> Fresas</label>
+                        <label><input type="checkbox" value="Vela"> Vela de cumpleaños</label>
+                        <label><input type="checkbox" value="Decoración personalizada"> Decoración personalizada</label>
+                    </fieldset>
+
+                    <div>
+                        <label>Fecha del evento:</label>
+                        <input type="date">
+                    </div>
+
+                    <div>
+                        <label>Imagen de referencia:</label>
+                        <input type="file" accept="image/*">
+                    </div>
+
+                    <button type="submit">Enviar pedido</button>
+                </form>
+            </section>
+
+            <!-- REDES -->
+            <section>
+                <h2>Síguenos</h2>
+                <ul>
+                    <li><a href="#" target="_blank">Facebook</a></li>
+                    <li><a href="#" target="_blank">Instagram</a></li>
+                    <li><a href="https://www.tiktok.com/@camille.littlecookie/video/7405358458628852998" target="_blank">TikTok</a></li>
+                    <li><a href="https://www.youtube.com/watch?v=kmORdzA8nvA" target="_blank">YouTube</a></li>
+                </ul>
+            </section>
+        </div>
+
+        <p>© 2025 Cafetería Muffin – Todos los derechos reservados.</p>
     </footer>
+
 </body>
 </html>
