@@ -8,11 +8,7 @@
     box-sizing: border-box;
 }
 
-/* Centrar TODA la página
-   - Usamos flex para centrar contenido
-   - align-items: center → centra horizontalmente
-   - Define color de fondo y tipografía general
-*/
+/* Define color de fondo y tipografía*/
 body{
     font-family: "Lexend", sans-serif;
     background-color: #f7f5fa;
