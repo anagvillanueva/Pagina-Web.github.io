@@ -197,3 +197,23 @@ footer{
     color: #4b004b;
 }
 
+/*BOTON FLOTANTE Position fixed*/
+.boton-carrito{
+    position: fixed;
+    bottom: 25px;
+    right:25px;
+    background-color: #f078a6;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 16px;
+    padding: 12px 20px;
+    color:white;
+    z-index: 1500;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+    transition: .2s ease-in-out;
+}
+
+.boton-carrito:hover{
+    background-color: #e0489e;
+}
